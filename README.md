@@ -11,6 +11,6 @@ Réplica da página de acesso ao Discord.
 - `HTML`
 - `CSS`
   
-## 🎨 Link do Figma
+## 🎨 Protótipo (Figma)
 [https://www.figma.com/design/PWRsUYuXvdrAjzAfrl4AiQ/Desafio-Grid---DIO-(Copy)?node-id=1-2&t=NZ9NbB4TVRwngPdi-1](https://www.figma.com/design/Q7TM4qDbfiUmaXPz2qP6wR/Desafio-Responsividade---DIO-(Copy)?node-id=0-1&t=UM6kHHLk2xGkLQjK-1)
 
