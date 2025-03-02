@@ -1,0 +1,223 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* Styles variables  */
+:root {
+    --primary-font-family: 'Luckiest Guy', sans-serif;
+    --secondary-font-family: 'Open Sans', sans-serif;
+
+    --main-color: #FFFFFF;
+    --secondary-color: #23272A;
+    --third-color: #F6F6F6;
+}
+
+/* Header */
+
+.discord__header {
+    background-image: url(../images/header-background.png);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+.discord__header h1 {
+    color: var(--main-color);
+    font-family: var(--primary-font-family);
+    font-size: 32px;
+    text-transform: uppercase;
+    align-self: flex-start;
+    margin: 0 24px;
+    margin-top: 40px;
+    
+    width: 278px;
+}
+
+.discord__header p {
+    font-family: var(--secondary-font-family);
+    font-size: 16px;
+    color: var(--main-color);
+    margin: 24px;
+}
+
+.discord__header #button1 {
+    border-radius: 30px;
+    width: 381px;
+    height: 54px;
+
+    font-family: var(--secondary-font-family);
+    font-size: 16px;
+}
+
+.discord__header #button2 {
+    border-radius: 30px;
+    width: 381px;
+    height: 54px;
+    margin-bottom: 20px;
+
+    font-family: var(--secondary-font-family);
+    color: var(--main-color);
+    font-size: 16px;
+    background-color: var(--secondary-color);
+}
+
+/* Main section 1  */
+
+.discord__servers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.discord__servers img {
+    max-width: 100%;
+    margin: 50px;
+}
+.discord__servers h2 {
+    font-family: var(--secondary-font-family);
+    font-size: 24px;
+    font-weight: bolder;
+    color: var(--secondary-color);
+
+    width: 370px;
+}
+
+.discord__servers p {
+    font-family: var(--secondary-font-family);
+    font-size: 16px;
+    color: var(--secondary-color);
+    width: 378px;
+    margin-bottom: 40px;
+}
+
+/* main section 2 */
+
+.discord__calls {
+    background-color: var(--third-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.discord__calls img {
+    max-width: 100%;
+    margin: 50px;
+}
+
+.discord__calls h2 {
+    font-family: var(--secondary-font-family);
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 24px;
+    color: var(--secondary-color);
+
+    width: 370px;
+}
+
+.discord__calls p {
+    font-family: var(--secondary-font-family);
+    font-size: 16px;
+    color: var(--secondary-color);
+    align-self: center;
+    width: 378px;
+    margin-bottom: 40px;
+}
+
+/* main section 3  */
+
+.discord__configs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.discord__configs img {
+    margin: 50px;
+    max-width: 100%;
+}
+
+.discord__configs h2 { 
+    font-family: var(--secondary-font-family);
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 24px;
+    color: var(--secondary-color);
+
+    width: 370px;
+}
+
+.discord__configs p {
+    font-family: var(--secondary-font-family);
+    font-size: 16px;
+    color: var(--secondary-color);
+    align-self: center;
+    width: 378px;
+    margin-bottom: 40px;
+}
+
+/* main section 4  */
+
+.discord__technology {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    background-color: var(--third-color);
+}
+
+.discord__technology h2 {
+    font-family: var(--primary-font-family);
+    font-size: 32px;
+    text-transform: uppercase;
+    align-self: flex-start;
+    margin: 0 24px;
+    margin-top: 40px;
+    
+    
+    width: 376px;
+}
+
+.discord__technology p {
+    font-family: var(--secondary-font-family);
+    font-size: 16px;
+    color: var(--secondary-color);
+    align-self: center;
+    width: 378px;
+    margin-bottom: 40px;
+}
+
+.discord__technology img {
+    margin: 0 30px;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+/* footer  */ 
+.discord__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 50px;
+    gap: 10px;
+
+    background-color: var(--secondary-color);
+}
+
+
+.discord__footer img {
+    max-width: 100%;
+}
+
+.discord__footer h3 {
+    font-size: 27px;
+    color: var(--main-color);
+
+    font-family: sans-serif;
+}
