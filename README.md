@@ -4,7 +4,7 @@
 ## 📑 Descrição
 Réplica da página de acesso ao Discord.
 
-##. 🎯 Funcionalidades
+## 🎯 Funcionalidades
 - [x] : Design responsivo (mobile e desktop).
 
 ## 💻 Tecnologias 
