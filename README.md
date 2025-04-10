@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/3ecba679-e6b4-4b3b-a47b-c8c9e642bc6e)
 
 ## 📑 Descrição
-Réplica da página de acesso ao Discord.
+Réplica do site do Discord.
 
 ## 🎯 Funcionalidades
 - [x] : Design responsivo (mobile e desktop).
